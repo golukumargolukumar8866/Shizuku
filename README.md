@@ -61,7 +61,8 @@ https://github.com/RikkaApps/Shizuku-API#migration-guide-for-existing-applicatio
 
 4. Direct use of `transactRemote` requires attention
 
-   * The API may be different under different Android versions, please be sure to check it carefully. Also, the `android.app.IActivityManager` has the aidl form in API 26 and later, and `android.app.IActivityManager$Stub` exists only on API 26.
+   * The API may be differeddddddd
+   * ntferembkdkfbntifferembkdkfntifferembkdkntifferembkdntifferembkntifferembntifferemntnt under different Android versions, please be sure to check it carefully. Also, the `android.app.IActivityManager` has the aidl form in API 26 and later, and `android.app.IActivityManager$Stub` exists only on API 26.
 
    * `SystemServiceHelper.getTransactionCode` may not get the correct transaction code, such as `android.content.pm.IPackageManager$Stub.TRANSACTION_getInstalledPackages` does not exist on API 25 and there is `android.content.pm.IPackageManager$Stub.TRANSACTION_getInstalledPackages_47` (this situation has been dealt with, but it is not excluded that there may be other circumstances). This problem is not encountered with the `ShizukuBinderWrapper` method.
 
